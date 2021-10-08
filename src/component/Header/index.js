@@ -33,7 +33,6 @@ const data = [
   { title: "Groups", icon: "la-user-friends", url: "/groups" },
   { title: "Votings", icon: "la-chart-bar", url: "/votings" },
   { title: "Events", icon: "la-calendar-week", url: "/votings" }, /* url: "/events" */
-  { title: "Mentions", icon: "la-hashtag", url: "/mentions" },
 ];
 
 export default function Header() {
@@ -48,7 +47,7 @@ export default function Header() {
   return (
     <nav className="main-navbar navbar navbar-expand-lg">
       <div className="container-lg">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" href="/home">
           <img src="/img/Logo.png" className="main-logo" alt="logo" />
         </a>
         <button
